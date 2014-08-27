@@ -22,4 +22,4 @@ Run the experimental GUI
 In order to show a GUI and refactor a single file of this case study "ide-like" just execute `./run.sh sqlite/sqlite3.c`.
 
 
-Good luck. In case of problems contact someone of us.
+Good luck. In case of problems contact Good luck. In case of problems contact [me](mailto:janker@fim.uni-passau.de).
