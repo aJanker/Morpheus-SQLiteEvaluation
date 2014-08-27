@@ -14,10 +14,12 @@ Run the Evaluation
 
 If you want to run the evaluation of the refactoring engine [Morpheus](https://github.com/joliebig/Morpheus) run `prepare.sh` first to create the required .tunit, .interface and .pr files. Now you can edit `eval.sh` to choose your desired refactoring method: rename, extract- or inline function and subsequently run `./eval.sh` to execute the evalution.
 
+Note: The used TH3 test suite is not included in this project as a valid licence is required. See (http://sqlite.org/th3) for further details.
+
 Run the experimental GUI
 -----------------
 
-In order to show a GUI and refactor a single file of this case study "ide-like" just execute `./run.sh <file/to/refactor>`.
+In order to show a GUI and refactor a single file of this case study "ide-like" just execute `./run.sh sqlite/sqlite3.c`.
 
 
 Good luck. In case of problems contact someone of us.
