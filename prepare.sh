@@ -9,9 +9,11 @@ filesToProcess() {
 
 
 flags=" --bdd  --study sqlite --refPrep  --disablePC \
-        -I /usr/local/include \
-        -I /usr/lib/gcc/x86_64-pc-linux-gnu/4.6.3/include-fixed \ 
-        -I /usr/lib/gcc/x86_64-pc-linux-gnu/4.6.3/include \
+	-I /usr/local/include \
+        -I /usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed \
+        -I /usr/lib/gcc/x86_64-linux-gnu/4.6/include \
+        -I /usr/include/x86_64-linux-gnu \
+        -I /usr/include \       
         -I $ABSPATH \
         -I $ABSPATH/casestudy \
         -I $ABSPATH/sqlite \

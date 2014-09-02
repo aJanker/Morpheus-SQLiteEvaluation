@@ -3,8 +3,10 @@
 ABSPATH=$(cd "$(dirname "$0")"; pwd)
 flags=" --bdd --showGui --disablePC \
         -I /usr/local/include \
-        -I /usr/lib/gcc/x86_64-pc-linux-gnu/4.6.3/include-fixed \ 
-        -I /usr/lib/gcc/x86_64-pc-linux-gnu/4.6.3/include \
+        -I /usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed \
+        -I /usr/lib/gcc/x86_64-linux-gnu/4.6/include \
+        -I /usr/include/x86_64-linux-gnu \
+        -I /usr/include \
         -I $ABSPATH \
         -I $ABSPATH/casestudy \
         -I $ABSPATH/sqlite \
